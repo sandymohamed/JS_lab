@@ -12,7 +12,7 @@ let hello;
 names can include letters, numbers, dollar signs, and underscores, but cannot contain spaces and must not begin with a number.
 
 --> declare variable name;
-## Note: It is common practice to end statements in JavaScript with a semicolon. ;
+## Note: It is common practice to end statements in JavaScript with a semicolon ;
 
 
 ## Assigning a value to a variable at the moment of its declaration is known as initialization.
