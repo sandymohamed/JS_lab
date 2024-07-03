@@ -5,7 +5,8 @@
  One of them is an array.
 
 
- ## When an array holds values, or elements, those values are separated by commas. Here is an array that holds two strings:
+ ## When an array holds values, or elements, those values are separated by commas. 
+ Here is an array that holds two strings:
 
  // let array = [];
  // let array_1 = ["first"];
@@ -17,7 +18,8 @@
 
   --> declare and assign an array variable with name rows values : "first", "second", "third"
 
-## You can access the values inside an array using the index of the value. An index is a number representing the position of the value in the array, starting from 0 for the first value.
+## You can access the values inside an array using the index of the value.
+ An index is a number representing the position of the value in the array, starting from 0 for the first value.
 ## You can access the value using bracket notation, such as array[0].
 
 --> Use console.log and bracket notation to print the first value in your rows array.
@@ -57,7 +59,8 @@ array.length returns the number of elements in the array.
  ## An example you've already encountered is the .log() method, which is part of the console object.
 
 ## Arrays have their own methods, and the first you will explore is the .push() method. 
-## This allows you to "push" a value to the end of an array. Here is an example to add the number 12 to the end of an array:
+## This allows you to "push" a value to the end of an array.
+ Here is an example to add the number 12 to the end of an array:
  
 array.push(12);
 
