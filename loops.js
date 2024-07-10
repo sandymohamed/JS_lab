@@ -108,7 +108,8 @@ for (let i = 0; i < 5; i++) {
 // ```
 
 // ### 3. `do...while` Loop
-// The `do...while` loop is similar to the `while` loop, but it will always execute the block of code once before checking the condition.
+// The `do...while` loop is similar to the `while` loop,
+//  but it will always execute the block of code once before checking the condition.
 
 // **Syntax:**
 // do {
