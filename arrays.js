@@ -150,7 +150,8 @@ console.log(fruits); // Output: ["Apple", "Banana", "Orange"]
 
 
 // ### 5. `concat()`
-// The `concat()` method is used to merge two or more arrays. This method does not change the existing arrays but returns a new array.
+// The `concat()` method is used to merge two or more arrays. 
+// This method does not change the existing arrays but returns a new array.
 
 // **Example:**
 
@@ -161,7 +162,8 @@ console.log(allFruits); // Output: ["Apple", "Banana", "Orange", "Mango"]
 
 
 // ### 6. `slice()`
-// The `slice()` method returns a shallow copy of a portion of an array into a new array object. You can specify the start and end index.
+// The `slice()` method returns a shallow copy of a portion of an array into a new array object.
+//  You can specify the start and end index.
 
 // **Example:**
 
@@ -172,15 +174,14 @@ console.log(fruits); // Output: ["Banana", "Orange"]
 
 
 // ### 7. `splice()`
-// The `splice()` method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+// The `splice()` method changes the contents of an array 
+// by removing or replacing existing elements and/or adding new elements in place.
 
 // **Example:**
 
-fruits = ["Apple", "Banana", "Orange", "watermelon"];
-fruits.splice(3, 0, "Mango"); // Removes 1 element at index 1 and adds "Mango"
-console.log("000000", fruits); // Output: ["Apple", "Mango", "Orange"]
-
-
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+console.log("months", months); // Output: ["Jan", "Feb", "March",]
 // ### 8. `indexOf()`
 // The `indexOf()` method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
@@ -256,7 +257,7 @@ fruits.forEach(function (fruit) {
 
 // **Example:**
 
-// let numbers = [1, 2, 3];
+let numbers = [1, 2, 3];
 let doubled = numbers.map(function (number) {
   return number * 2;
 });
@@ -289,3 +290,31 @@ console.log(sum); // Output: 15
 
 // These basic array methods provide powerful tools for manipulating and interacting with arrays in JavaScript.
 // Practicing these methods will help you become proficient in handling array operations.
+
+
+const myName = "Sandy";
+function isThere() {
+const input = document.getElementById("input").value;
+const htmlResult = document.getElementById("result");
+
+let array = myName.split("");
+let result = array.includes(input);
+htmlResult.innerHTML = result;
+return result;
+
+}
+function isIt() {
+const input = document.getElementById("input").value;
+const htmlResult = document.getElementById("result");
+
+myName.toLocaleLowerCase();
+
+let result = myName === input;
+htmlResult.innerHTML = result;
+return result;
+
+}
+
+
+
+
