@@ -60,7 +60,8 @@ test += 1;
 // ********************************************************************************************
 
 // Loops are used in JavaScript to perform repeated tasks based on a condition. 
-// Conditions typically return true or false, and a loop will continue running until the condition returns false.
+// Conditions typically return true or false, 
+// and a loop will continue running until the condition returns false.
 //  Here are the main types of loops in JavaScript:
 
 // ### 1. `for` Loop
@@ -132,7 +133,8 @@ for (let i = 0; i < 5; i++) {
 // ```
 
 // ### 4. `for...in` Loop
-// The `for...in` loop iterates over the properties of an object (including arrays, which are a special type of object).
+// The `for...in` loop iterates over the properties of an object 
+// (including arrays, which are a special type of object).
 
 // **Syntax:**
 // for (variable in object) {
@@ -141,10 +143,11 @@ for (let i = 0; i < 5; i++) {
 // ```
 
 // **Example with an Array:**
-// let numbers = [45, 4, 9, 16, 25];
-// for (let index in numbers) {
-//     console.log(numbers[index]);
-// }
+let numberss = [45, 4, 9, 16, 25];
+for (let index in numberss) {
+    console.log("index:", index);
+    console.log(numberss[index]);
+}
 // // Output:
 // // 45
 // // 4
@@ -164,10 +167,11 @@ for (let i = 0; i < 5; i++) {
 // ```
 
 // **Example with an Array:**
-// let numbers = [45, 4, 9, 16, 25];
-// for (let number of numbers) {
-//     console.log(number);
-// }
+let xnumbers = [45, 4, 9, 16, 25];
+for (let number of xnumbers) {
+    console.log("number: ",number);
+    // console.log(number);
+}
 // // Output:
 // // 45
 // // 4
@@ -177,10 +181,10 @@ for (let i = 0; i < 5; i++) {
 // ```
 
 // **Example with a String:**
-// let name = "John";
-// for (let char of name) {
-//     console.log(char);
-// }
+let name = "John";
+for (let char of name) {
+    console.log(char);
+}
 // // Output:
 // // J
 // // o
@@ -199,6 +203,7 @@ for (let i = 0; i < 5; i++) {
    }
    
    console.log(sum); // Output: 15
+
 //    ```
 
 // 2. **Finding Even Numbers in an Array:**
@@ -239,4 +244,5 @@ for (let i = 0; i < 5; i++) {
 //    // blue
 //    ```
 
-// By understanding and practicing these different types of loops, you can efficiently handle repetitive tasks and data structures in JavaScript.
+// By understanding and practicing these different types of loops,
+//  you can efficiently handle repetitive tasks and data structures in JavaScript.

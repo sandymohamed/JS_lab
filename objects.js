@@ -155,6 +155,12 @@
 // console.log(entries); // Output: [["firstName", "John"], ["lastName", "Doe"], ["age", 30]]
 // ```
 
+
+
+
+
+
+
 // ### Practical Example: Managing a Collection of Objects
 // Here's an example where we manage a collection of person objects using an array of objects:
 
@@ -165,6 +171,7 @@
 
 // // Add a new contact
 // contacts.push({ name: "Sam Brown", phone: "555-555-5555", email: "sam.brown@example.com" });
+
 
 // // Find a contact by name
 // let contact = contacts.find(contact => contact.name === "Jane Smith");
